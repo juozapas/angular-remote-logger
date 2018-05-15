@@ -77,7 +77,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "gulp test --environment=ci --generate-coverage-report=true --coverage-format=lcov",
-    "postinstall": "gulp fixKarmaRunnerJasmineVersion"
+    "test": "gulp test --environment=ci --generate-coverage-report=true --coverage-format=lcov"
   }
 }
